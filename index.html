@@ -7,25 +7,27 @@
     <title>Netflix UI</title>
 </head>
 <body>
-    <header>
-        <!--
-            Netflix
-
-            Português
-
-            Entrar
-
-            Filmes, séries e muito mais. Sem limites.
-
-            Assista onde quiser. Cancele quando quiser.
-
-            Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.
-
-            Email
-
-            Vamos lá
-        -->
-    </header>
+    <div class="container">
+        <header>
+            <h2 class="branding">NETFLIX</h2>
+            <nav>
+                <select name="language-selector">
+                    <option>Português</option>
+                    <option>English</option>
+                </select>
+                <button class="btn-primary">Entrar</button>
+            </nav>
+        </header>
+        <section id="hero">
+            <h1>Filmes, séries e muito mais. Sem limites.</h1>
+            <h3>Assista onde quiser. Cancele quando quiser.</h3>
+            <p>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+            <div class="input-group">
+                <input type="text" placeholder="email">
+                <button class="btn-primary">Vamos lá ></button>
+            </div>
+        </section>
+    </div>
     <main>
         <section>
             <!--
