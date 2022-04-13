@@ -44,4 +44,9 @@ body{
     color:var(--red);
 }
 
+header{
+    display:flex;
+    justify-content: space-between;
+}
+
 /* hero */
