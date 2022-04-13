@@ -61,3 +61,8 @@ header{
 }
 
 /* hero */
+#hero{
+    text-align:center;
+    width:95%;
+    margin-top:16%;
+}
