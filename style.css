@@ -17,3 +17,15 @@ body{
     background-color:black;
     color:white;
 }
+
+/* utilities */
+
+
+/* header */
+#banner{
+    background:url('img/hero_img.png');
+    background-size: cover;
+    height:100vh;
+}
+
+/* hero */
