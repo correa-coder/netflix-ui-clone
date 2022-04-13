@@ -19,6 +19,18 @@ body{
 }
 
 /* utilities */
+.container{
+    padding:1em;
+}
+
+.btn-primary{
+    border:none;
+    background-color:var(--red);
+    color:white;
+    padding:.4em .6em;
+    border-radius:4px;
+    font-weight:500;
+}
 
 
 /* header */
@@ -26,6 +38,10 @@ body{
     background:url('img/hero_img.png');
     background-size: cover;
     height:100vh;
+}
+
+.branding{
+    color:var(--red);
 }
 
 /* hero */
