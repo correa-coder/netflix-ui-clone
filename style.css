@@ -40,6 +40,9 @@ select{
     margin-right:.75em;
 }
 
+select option{
+    background-color:dimgray;
+}
 
 /* header */
 #banner{
