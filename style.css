@@ -18,6 +18,10 @@ body{
     color:white;
 }
 
+img{
+    width:100%;
+}
+
 
 /* utilities */
 .container{
@@ -92,3 +96,5 @@ header{
     width:95%;
     margin-top:16%;
 }
+
+/* sections */
