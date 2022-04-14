@@ -37,6 +37,10 @@ img{
     font-weight:500;
 }
 
+button:hover{
+    cursor:pointer;
+}
+
 /* inputs */
 
 .input-group{
