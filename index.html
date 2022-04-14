@@ -7,52 +7,72 @@
     <title>Netflix UI</title>
 </head>
 <body>
-    <div class="container" id="banner">
-        <header>
-            <h2 class="branding">NETFLIX</h2>
+    <header class="showcase">
+        <div class="showcase-top container">
+            <h3 class="branding">netflix</h3>
             <nav>
                 <select name="language-selector">
                     <option>Português</option>
                     <option>English</option>
                 </select>
-                <button class="btn-primary">Entrar</button>
+                <button>Entrar</button>
             </nav>
-        </header>
-        <section id="hero">
+        </div>
+        <div class="showcase-content">
             <h1>Filmes, séries e muito mais. Sem limites.</h1>
-            <h3>Assista onde quiser. Cancele quando quiser.</h3>
+            <p>Assista onde quiser. Cancele quando quiser.</p>
             <p>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
             <div class="input-group">
-                <input type="text" placeholder="Email">
-                <button class="btn-primary">Vamos lá ></button>
+                <input type="email" placeholder="Email">
+                <button>Vamos lá ></button>
             </div>
-        </section>
-    </div>
+        </div>
+    </header>
     <main>
-        <section id="large-devices">
-            <h3>Aproveite na TV.</h3>
-            <p>Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</p>
-            <img src="img/tv.png" alt="TV with movies">
-        </section>
-        <section id="">
-            <h3>Baixe séries para assistir offline.</h3>
-            <p>Salve seus títulos favoritos e sempre tenha algo para assistir.</p>
-            <img src="img/mobile.png" alt="Smartphone with movie">
+        <section id="TV">
             <div>
-                <img src="img/stranger_things.png" alt="Stranger Things ">
-                <h5>Stranger Things</h5>
-                <p>Download em andamento...</p>
+                <h3>Aproveite na TV.</h3>
+                <p>Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</p>
+            </div>
+            <div class="img-wrapper">
+                <img src="img/tv.png" alt="TV with movies">
+            </div>
+        </section>
+        <section id="downloads">
+            <div>
+                <h3>Baixe séries para assistir offline.</h3>
+                <p>Salve seus títulos favoritos e sempre tenha algo para assistir.</p>
+            </div>
+            <div class="mobile-images">
+                <div class="img-wrapper">
+                    <img src="img/stranger_things.png" alt="Stranger Things ">
+                </div>
+                <div class="download-info">
+                    <img src="img/mobile.png" alt="Smartphone with movie">
+                    <div class="download-info-text">
+                        <h5>Stranger Things</h5>
+                        <p>Download em andamento...</p>
+                    </div>
+                </div>
             </div>
         </section>
         <section>
-            <h3>Assista quando quiser.</h3>
-            <p>Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</p>
-            <img src="img/device-pile.png" alt="Device pile">
+            <div>
+                <h3>Assista quando quiser.</h3>
+                <p>Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</p>
+            </div>
+            <div class="img-wrapper">
+                <img src="img/device-pile.png" alt="Device pile">
+            </div>
         </section>
         <section>
-            <h3>Crie perfis para crianças.</h3>
-            <p>Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</p>
-            <img src="img/childish.png" alt="Movie for children">
+            <div>
+                <h3>Crie perfis para crianças.</h3>
+                <p>Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</p>
+            </div>
+            <div class="img-wrapper">
+                <img src="img/childish.png" alt="Movie for children">
+            </div>
         </section>
     </main>
     <section id="faq">
@@ -68,7 +88,7 @@
             </ul>
         </nav>
         <div class="input-group">
-            <input type="email" placeholder="email">
+            <input type="email" placeholder="Email">
             <button class="btn-primary">Vamos lá ></button>
         </div>
     </section>
