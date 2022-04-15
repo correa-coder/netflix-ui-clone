@@ -238,6 +238,16 @@ footer ul li{
 
     section{
         display:flex;
+        align-items:center;
+        justify-content:center;
+        width:85%;
+        margin-right:auto;
+        margin-left:auto;
+    }
+
+    /* inverting order */
+    #downloads .img-wrapper, #childish .img-wrapper{
+        order:-1;
     }
 
     #faq{
