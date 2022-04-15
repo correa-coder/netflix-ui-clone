@@ -104,9 +104,23 @@ ul{
     position:relative;
 }
 
+/* overlay */
+.showcase::after{
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0, 0, 0, .4);
+    z-index:1;
+}
+
 .showcase-top{
     display:flex;
     justify-content: space-between;
+    z-index:2;
+    position:relative;
 }
 
 .showcase-top button{
@@ -140,6 +154,8 @@ select option{
     width:85%;
     margin-left:auto;
     margin-right:auto;
+    z-index:2;
+    position:relative;
 }
 
 /* sections */
