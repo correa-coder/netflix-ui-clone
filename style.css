@@ -179,22 +179,6 @@ section img{
     margin-top:1rem;
 }
 
-/* downloads */
-.download-info{
-    border: 2px solid dimgray;
-    border-radius: 6px;
-    display:flex;
-    padding:1rem;
-}
-
-.download-info p{
-    color:var(--blue);
-}
-
-.img-wrapper{
-    width:1rem;
-}
-
 .img-wrapper img{
     width:100%;
 }
