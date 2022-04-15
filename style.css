@@ -23,9 +23,6 @@ body{
     color:white;
 }
 
-h1{
-    font-size:3rem;
-}
 
 img{
     width:100%;
@@ -69,30 +66,17 @@ ul{
 
 
 /* inputs */
+.input-group{
+    margin-top:1rem;
+}
 
 .input-group input{
     background:white;
     border:none;
     border-radius:2px;
-    padding:.5rem;
+    padding: 1rem .5rem;
     width:100%;
-    display:block;
-}
-
-.input-group button{
-    margin-top: .5rem;
-    padding: 1rem 2rem;
-    font-size:2rem;
-}
-
-.input-group .btn-primary{
-    font-size: 1.05em;
-    width: max-content;
-    border-radius: 2px;
-    padding: 2% 4%;
-    margin-top: 3%;
-    margin-left:auto;
-    margin-right:auto;
+    display:inline-block;
 }
 
 /* header */
@@ -149,13 +133,26 @@ select option{
 
 /* showcase */
 .showcase-content{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
     text-align:center;
-    margin-top:16%;
-    width:85%;
+    margin-top:9rem;
     margin-left:auto;
     margin-right:auto;
+    width:75%;
     z-index:2;
     position:relative;
+}
+
+.showcase-content h1{
+    font-size:3.5rem;
+    font-weight:bold;
+}
+
+.showcase-content p{
+    font-size:1.6rem;
 }
 
 /* sections */
@@ -191,6 +188,12 @@ section img{
 #faq h2{
     text-align:center;
     margin-bottom:1rem;
+}
+
+#faq h4{
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    text-align:center;
 }
 
 #faq li{
@@ -230,7 +233,7 @@ footer ul li{
     margin:.3rem;
 }
 
-/* adaptation */
+/* adaptation for larger screens */
 @media(min-width:768px){
     html{
         font-size: 90%;
@@ -245,6 +248,10 @@ footer ul li{
         margin-left:auto;
     }
 
+    .btn-lg{
+        margin-top:0;
+    }
+
     /* inverting order */
     #downloads .img-wrapper, #childish .img-wrapper{
         order:-1;
@@ -256,12 +263,12 @@ footer ul li{
 
     .input-group{
         display:flex;
-        width:50%;
-        height: 5rem;
+        width:60%;
+        height: 3rem;
         margin: 1rem auto;
     }
 
-    .input-group button{
-        margin-top:0;
+    .input-group input{
+        width:65%;
     }
 }
